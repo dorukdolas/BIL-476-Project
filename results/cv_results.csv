@@ -1,0 +1,9 @@
+Scenario,Model,CV_ROC_AUC_mean,Best_Params
+full,Decision Tree,0.8869510955822039,"{'clf__max_depth': 10, 'clf__min_samples_leaf': 20}"
+full,Naive Bayes,0.7998460819598205,{'clf__var_smoothing': 1e-05}
+full,k-NN,0.8936043281887592,"{'clf__n_neighbors': 25, 'clf__weights': 'distance'}"
+full,Random Forest,0.920089267341114,"{'clf__max_depth': None, 'clf__n_estimators': 400}"
+no_duration,Decision Tree,0.7477628560949984,"{'clf__max_depth': None, 'clf__min_samples_leaf': 20}"
+no_duration,Naive Bayes,0.7389741450300701,{'clf__var_smoothing': 1e-05}
+no_duration,k-NN,0.7641593926494217,"{'clf__n_neighbors': 51, 'clf__weights': 'distance'}"
+no_duration,Random Forest,0.7857115805369892,"{'clf__max_depth': 10, 'clf__n_estimators': 400}"

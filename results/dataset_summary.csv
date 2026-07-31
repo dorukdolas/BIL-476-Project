@@ -1,0 +1,9 @@
+Property,Value
+Number of Records,11162
+Number of Attributes,16
+Numeric Attributes,7
+Categorical Attributes,9
+Target Variable,deposit (yes/no)
+Positive Class Rate (deposit=yes),47.4%
+Missing Values (NaN),0
+'unknown' encoded values,job=70; education=497; contact=2346; poutcome=8326
